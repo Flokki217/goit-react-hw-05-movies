@@ -1,12 +1,12 @@
 import css from './SearchInput.module.css';
-const SearchInput = ({ value, onChange }) => {
+const SearchInput = ({ value, onSubmit, onChange }) => {
   return (
-    <form className={css.form}>
+    <form onSubmit={onSubmit} className={css.form}>
       <input
         className={css.input}
         type="text"
         name="query"
-        placeholder="Search you movie"
+        placeholder="Search your movie"
         value={value}
         onChange={e => onChange(e.target.value)}
       />
