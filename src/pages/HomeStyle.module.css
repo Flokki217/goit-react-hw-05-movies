@@ -1,0 +1,10 @@
+.list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.title {
+  color: rgb(113, 179, 14);
+  margin-left: 15px;
+}

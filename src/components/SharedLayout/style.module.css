@@ -1,0 +1,21 @@
+.navigation {
+  background-color: rgb(113, 179, 14);
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+.link {
+  font-size: 30px;
+  border: 1px solid black;
+  padding: 10px;
+  border-radius: 5px;
+  text-decoration: none;
+  background-color: rgb(236, 237, 238);
+}
+.link:hover,
+.link:focus {
+  background-color: black;
+  color: rgb(236, 237, 238);
+}
